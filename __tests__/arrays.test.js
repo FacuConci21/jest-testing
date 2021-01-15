@@ -11,3 +11,9 @@ describe('Comprobar existencia', () => {
         expect(arrayFruits()).toHaveLength(5);
     });
 });
+
+describe('Comprobar existencia: colores', () => {
+    test('colors', () => {
+        expect(arrayColors()).toContain('rojo');
+    });
+});
