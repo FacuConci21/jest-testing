@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest strings.test.js",
+    "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
   },
