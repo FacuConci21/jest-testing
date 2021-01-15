@@ -14,7 +14,7 @@ describe('Comparacion de numeros', () => {
         expect(numbers(2,2)).toBeLessThanOrEqual(4);
     });
     test('numeros con coma', () => {
-        expect(numbers(0.2, 0.2)).toBeCloseTo(0.5);
+        expect(numbers(0.2, 0.2)).toBeCloseTo(0.4);
     });
 
 });
