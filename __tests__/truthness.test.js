@@ -13,4 +13,4 @@ describe('Probar resultados nulos', () => {
     test('false', () => {
         expect(isFalse()).toBeFalsy();
     });
-})
+});

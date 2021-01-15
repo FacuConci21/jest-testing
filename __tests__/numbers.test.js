@@ -17,4 +17,4 @@ describe('Comparacion de numeros', () => {
         expect(numbers(0.2, 0.2)).toBeCloseTo(0.5);
     });
 
-})
+});

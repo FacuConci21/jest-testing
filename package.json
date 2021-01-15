@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest truthness.test.js"
+    "test": "jest arrays.test.js"
   },
   "keywords": [],
   "author": "",

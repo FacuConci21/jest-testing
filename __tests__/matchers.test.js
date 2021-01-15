@@ -13,4 +13,4 @@ describe('Comparadores comunes', () => {
         expect(user).toEqual(user1);
     });
 
-})
+});
