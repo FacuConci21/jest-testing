@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest promise.test.js",
+    "test": "jest async.test.js",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
   },
