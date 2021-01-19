@@ -15,4 +15,16 @@ describe('Async test', () => {
                 expect(data.name).toEqual('Rick Sanchez');
             });
     });
+
+    test('Fail API request', async () => {
+        const apiError = 'http://httpstat.us/404';
+        const request = getDataFromAPI(apiError);
+
+        await expect(request).rejects.toEqual(Error('Request failed with status code 404'));
+    });
+
+    test('Resuelve un hola mundo', async () => {
+        await expect(Promise.resolve('hola mundo')).resolves.toBe('hola mundo');
+        await expect(Promise.reject('Error')).rejects.toBe('Error');
+    });
 });
