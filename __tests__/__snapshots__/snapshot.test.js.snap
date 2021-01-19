@@ -1,5 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Es hora de las Instantaneas We have a exception inside the code 1`] = `
+Object {
+  "id": Any<Number>,
+  "name": "tu mama",
+}
+`;
+
+exports[`Es hora de las Instantaneas should always fails 1`] = `
+Object {
+  "createAt": 1611068600352,
+  "id": 19,
+}
+`;
+
 exports[`Es hora de las Instantaneas should show a snapshot 1`] = `
 Object {
   "criminalRecord": Object {
