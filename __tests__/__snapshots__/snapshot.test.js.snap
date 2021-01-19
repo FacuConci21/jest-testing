@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Es hora de las Instantaneas should show a snapshot 1`] = `
+Object {
+  "criminalRecord": Object {
+    "sentence": "death",
+    "status": "in process",
+    "transmitter": "Galactic Federation",
+    "universe": "all ...",
+  },
+  "gender": "Male",
+  "id": 1,
+  "name": "Rick Sanchez",
+  "portalGunId": "eafcecca858a7d5fae7f5d7f5ae5fd7",
+  "species": "Human",
+  "status": "Alive",
+  "universe": "C137",
+}
+`;
